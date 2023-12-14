@@ -1,0 +1,32 @@
+<!-- original wimoc author: @leovalcante -->
+<!-- chrome estension embedding author: @xonoxitron -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIMOC - What Is My OWASP Category?</title>
+    <script src="popup.js"></script>
+    <style>
+        .result {
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <h1>WIMOC - What Is My OWASP Category?</h1>
+        <div id="category"></div>
+        <div class="input">
+            <input type="text" id="vuln-name" />
+            <button id="resetBtn">Reset</button>
+        </div>
+        <div id="cwe-list" class="cwe-list"></div>
+    </div>
+</body>
+
+</html>
